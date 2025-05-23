@@ -1,0 +1,68 @@
+Аля@DESKTOP-18NMNC2 MINGW64 /d/IT/Новая папка/Examen (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Аля@DESKTOP-18NMNC2 MINGW64 /d/IT/Новая папка/Examen (main)
+$ git branch
+* main
+  newbranch
+
+Аля@DESKTOP-18NMNC2 MINGW64 /d/IT/Новая папка/Examen (main)
+$ git log
+commit 9c179ca292ae004150a6f9e8825d24b05284804a (HEAD -> main, origin/main, origin/HEAD)
+Author: Dmytro Dmkv <dmkvman@gmail.com>
+Date:   Fri May 23 19:45:29 2025 +0300
+
+    Create style.css
+
+commit 9aa61b219011277d47cc66d645508987218d0cd9
+Merge: 5449b06 9bb5db1
+Author: Dmytro <dmkvman@gmail.com>
+Date:   Fri May 23 19:43:45 2025 +0300
+
+    conflictend
+
+commit 5449b066a0a7b93a4a1fcdd28c5e0a037b4a0677
+Author: Dmytro <dmkvman@gmail.com>
+Date:   Fri May 23 19:40:46 2025 +0300
+
+    main_redact
+
+commit 9bb5db1b935f19f36f71eebd89529b3c3c038604 (origin/newbranch, newbranch)
+Author: Dmytro <dmkvman@gmail.com>
+Date:   Fri May 23 19:38:16 2025 +0300
+
+    2redact
+
+commit 52f74241a7a03da245d17df894528624bb69e2c3
+Author: Dmytro <dmkvman@gmail.com>
+Date:   Fri May 23 19:37:48 2025 +0300
+
+    1redact
+
+commit 2c88b36e0eeb89712bd17eb5f29378dc27033713
+Author: Dmytro <dmkvman@gmail.com>
+Date:   Fri May 23 19:35:17 2025 +0300
+
+    додав файл
+
+commit 01eced4f8594b333b995811ec4515f13f539ad31
+Author: Dmytro Dmkv <dmkvman@gmail.com>
+Date:   Fri May 23 19:14:12 2025 +0300
+
+    Initial commit
+
+Аля@DESKTOP-18NMNC2 MINGW64 /d/IT/Новая папка/Examen (main)
+$
+
+Аля@DESKTOP-18NMNC2 MINGW64 /d/IT/Новая папка/Examen (main)
+$ git log --merges
+commit 9aa61b219011277d47cc66d645508987218d0cd9
+Merge: 5449b06 9bb5db1
+Author: Dmytro <dmkvman@gmail.com>
+Date:   Fri May 23 19:43:45 2025 +0300
+
+    conflictend
